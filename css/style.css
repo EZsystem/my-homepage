@@ -96,3 +96,35 @@ footer {
 .profile-details li {
   margin-bottom: 10px;
 }
+
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.service-item {
+  max-width: 300px;
+  text-align: center;
+}
+
+.service-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.service-item h2 {
+  margin-top: 15px;
+  font-size: 1.3em;
+}
+
+.service-item p {
+  margin-top: 8px;
+  line-height: 1.5;
+  font-size: 1em;
+}

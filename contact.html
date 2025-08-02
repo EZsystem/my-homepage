@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>お問い合わせ | Myホームページ</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Myホームページ</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">ホーム</a></li>
+        <li><a href="profile.html">プロフィール</a></li>
+        <li><a href="service.html">サービス</a></li>
+        <li><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>お問い合わせ</h2>
+      <form action="https://example.xrea.jp/mail.php" method="POST">
+        <label for="name">お名前：</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">メールアドレス：</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">お問い合わせ内容：</label><br>
+        <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+        <input type="submit" value="送信">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Myホームページ</p>
+  </footer>
+</body>
+</html>

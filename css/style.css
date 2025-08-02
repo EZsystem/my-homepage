@@ -47,3 +47,52 @@ footer {
   color: #aaa;
   border-top: 1px solid #eee;
 }
+
+
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+}
+
+.profile-image img {
+  width: 220px;
+  height: 220px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.profile-text {
+  max-width: 500px;
+  text-align: left;
+}
+
+.profile-text h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.job-title {
+  font-size: 1.1em;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.intro {
+  font-size: 1em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.profile-details {
+  list-style: none;
+  padding-left: 0;
+}
+
+.profile-details li {
+  margin-bottom: 10px;
+}
